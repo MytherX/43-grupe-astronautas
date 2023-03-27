@@ -6,72 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Astonautas</title>
-    <style>
-        body{
-            margin: 0;
-        }
-            
-        header,
-        main,
-        footer { 
-            width: 800px; 
-            margin-left:calc((100% - 800px) / 2) ;  
-        }
-        
-        {
-            width: 800px;
-            margin-left: calc((100% - 800px) / 2);
-        }
-        
-        header {
-            display: flex;
-            gap: 20px;
-            align-items: center;
-            justify-content: space-between;
-            margin-bottom: 40px;
-            margin-top: 20px;
-        }
-
-        header img > {
-            height: 60px;
-            width: 100px;
-            object-fit: contain;
-            object-position: left;
-        }
-
-        nav {
-            display: flex;
-            gap: 30px;
-            background-color: yellow;
-        }
-
-        a {
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 20px;
-            text-decoration: none;
-            color: black;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-
-    
-        
-        main {
-            display: flex;
-            gap: 20px;
-            margin-bottom: 40px;
-            background-color: aqua; 
-        }
-
-        div {
-            width: 40%;
-        }
-        
-        footer {
-            background-color: coral; 
-        }
-        </style>
+    <link rel="stylesheet" href="./main.css"
 </head>
 
 <body>
@@ -84,8 +19,27 @@
             <a class="link" href="#">Contact</a>
         </nav>
         </header>
-    <main>MAIN</main>
-    <footer>FOOTER</footer>
+        
+        <main>
+        <div> 
+            <h1><Span>404</Span><br>Lost in space</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio reprehenderit praesentium autem voluptatem blanditiis accusamus, architecto molestias at nam obcaecati tempora nemo dolores eius veritatis pariatur consectetur rerum. Culpa, fuga.</p>
+            <a href="#">Go to home</a>
+            <a href="#">Back</a>
+        </div>
+        <img class="main-image" src="./astronaut.gif" alt="Astronautas su telefonu rankose">
+    </main>
+    
+    <footer class="container main-footer">
+        <div class="socials">
+            <a class="social-link" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a class="social-link" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a class="social-link" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a class="social-link" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        </div>
+        <p class="copyright">&copy; 2023 - All rights reserved</p>
+        
+    </footer>
 </body>
 
 </html>
