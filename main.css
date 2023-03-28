@@ -98,3 +98,12 @@ footer> a {
     font-size:12px;
     font-weight:bold;
 }
+.social-link {
+    color: #662b8c;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.copyright {
+    margin: 0;
+}
