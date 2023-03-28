@@ -1,14 +1,14 @@
-body{
+body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header, main, footer{
+header, main, footer {
     width: 800px;
     margin-left: calc(50% - 400px);
 }
 
-header{
+header {
     display: flex;
     gap: 20px;
     align-items: center;
@@ -17,25 +17,25 @@ header{
     margin-bottom: 40px;
 }
 
-header>img{
+header> img {
     width: 100px;
     height: 40px;
     object-fit: contain;
     object-position: left;
 }
 
-nav{
+nav {
     font-size: 20px;
     display: flex;
     gap: 30px;
 }
 
-nav>a{
+nav> a {
     text-decoration: none;
     color: rgb(46, 46, 46);
 }
 
-nav>a:hover{
+nav>a:hover {
     text-decoration: underline;
 }
 
@@ -44,23 +44,23 @@ main {
     align-items: center;
 }
 
-main>div{
+main> div {
     width: 45%;
 }
 
-main>img{
+main> img {
     width: 60%;
 }
 
-h1{
+h1 {
     font-size: 2em;
     font-weight: bold;
 }
-h1>span{
+h1>span {
     font-weight: normal;
 }
 
-main>div>a{
+main>div> a {
     float:left;
     line-height: 1em;
     background-color: #664499;
@@ -76,23 +76,23 @@ main>div>a{
     font-weight: bold;
 }
 
-div>a:hover{
+div>a:hover {
     color: #664499;
     background-color: white;
 }
 
-footer{
+footer {
     display: flex;
     gap: 20px;
     justify-content: space-between;
     margin-top: 35px;
 }
 
-footer> div{
+footer> div {
 
 }
 
-footer>a{
+footer> a {
     text-decoration:none;
     color:#666666;
     font-size:12px;
